@@ -1,5 +1,8 @@
     $("#imgDW").hide();
-    $("#imgIngenieria").hide();
+    $("#imgPET").hide();
+    $("#imgEmails").hide();
+    $("#imgProyectos").hide();
+    $("#imgInnovacion").hide();
 
 let flechaDiseñoWeb = document.getElementById("flechaDW");
 let DiseñoShow=0;
@@ -18,19 +21,71 @@ flechaDiseñoWeb.onclick = () => {
 
 }
 
-let flechaIngenieria = document.getElementById("flechaIngenieria");
-let IngenieriaShow=0;
+let flechaEmails = document.getElementById("flechaEmails");
+let EmailsShow=0;
 
-flechaIngenieria.onclick = () => { 
+flechaEmails.onclick = () => { 
 
-    if (IngenieriaShow===0){
-        $("#flechaIngenieria").css("transform", "rotate(180deg)");
-        $("#imgIngenieria").show("slow");
-        IngenieriaShow=1;
+    if (EmailsShow===0){
+        $("#flechaEmails").css("transform", "rotate(180deg)");
+        $("#imgEmails").show("slow");
+        EmailsShow=1;
     } else {
-        $("#flechaIngenieria").css("transform", "rotate(360deg)");
-        $("#imgIngenieria").hide("slow");
-        IngenieriaShow=0;
+        $("#flechaEmails").css("transform", "rotate(360deg)");
+        $("#imgEmails").hide("slow");
+        EmailsShow=0;
+    }
+
+}
+
+let flechaProyectos = document.getElementById("flechaProyectos");
+let proyectosShow=0;
+
+flechaProyectos.onclick = () => { 
+
+    if (proyectosShow===0){
+        $("#flechaProyectos").css("transform", "rotate(180deg)");
+        $("#imgProyectos").show("slow");
+        proyectosShow=1;
+    } else {
+        $("#flechaProyectos").css("transform", "rotate(360deg)");
+        $("#imgProyectos").hide("slow");
+        proyectosShow=0;
+    }
+
+}
+
+let flechaInnovacion = document.getElementById("flechaInnovacion");
+let innovacionShow=0;
+
+flechaInnovacion.onclick = () => { 
+
+    if (innovacionShow===0){
+        $("#flechaInnovacion").css("transform", "rotate(180deg)");
+        $("#imgInnovacion").show("slow");
+        innovacionShow=1;
+    } else {
+        $("#flechaInnovacion").css("transform", "rotate(360deg)");
+        $("#imgInnovacion").hide("slow");
+        innovacionShow=0;
+    }
+
+}
+
+
+let flechaPET = document.getElementById("flechaPET");
+let petShow=0;
+
+flechaPET.onclick = () => { 
+
+    if (petShow===0){
+        $("#flechaPET").css("transform", "rotate(180deg)");
+        $("#imgPET").show("slow");
+        petShow=1;
+    } else {
+        $("#flechaPET").css("transform", "rotate(360deg)");
+        $("#imgPET").hide("slow");
+        petShow=0;
     }
 
 }
