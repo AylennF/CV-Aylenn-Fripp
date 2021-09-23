@@ -1,0 +1,320 @@
+body {
+  background-color: #b3e2b3;
+  margin: 0 10vw;
+}
+
+h1 {
+  color: #090f09;
+  margin: 15px 0;
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+  color: color_body;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  font-weight: 100;
+  font-size: 0.8em;
+  color: #090f09;
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+}
+
+.divBarra {
+  border-bottom-style: solid;
+  border-radius: 5%;
+  border-bottom-width: 3.5px;
+  border-bottom-color: rgba(255, 255, 255, 0.603);
+  width: 8vw;
+  margin-bottom: 10px;
+}
+
+.divBarra2 {
+  border-bottom-style: solid;
+  border-radius: 5%;
+  border-bottom-width: 3.5px;
+  border-bottom-color: rgba(255, 255, 255, 0.603);
+  width: 12vw;
+  margin-bottom: 10px;
+}
+
+.divBarra3 {
+  border-bottom-style: solid;
+  border-radius: 5%;
+  border-bottom-width: 3.5px;
+  border-bottom-color: rgba(255, 255, 255, 0.603);
+  width: 17vw;
+  margin-bottom: 10px;
+}
+
+#Informacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #090f09;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  height: 50px;
+  padding-right: 20px;
+}
+
+#Informacion a i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 32px;
+  padding: 7px 10px;
+  color: white;
+}
+
+#contenedorPresentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 8px 0;
+  border-style: solid;
+}
+
+#contenedorPresentacion #Datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 8em 0 8em;
+  height: 17vw;
+}
+
+#contenedorPresentacion #Datos button {
+  color: #090f09;
+  border-color: #090f09;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2%;
+  margin: 30px 0;
+  font-family: 'Varela Round', sans-serif;
+  background-color: transparent;
+  padding: 0.2em;
+  height: 2.5em;
+  width: 38%;
+}
+
+#contenedorPresentacion #Datos button:hover {
+  color: #090f09;
+  border-color: #090f09;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #558655;
+}
+
+#contenedorPresentacion #imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 100px;
+  width: 17vw;
+  height: 17vw;
+}
+
+#Descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Descripcion h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Descripcion article {
+  margin: 5px 0;
+  color: #dfdfdf;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Estudios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Estudios h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Estudios h4 {
+  margin: 0;
+  color: #dfdfdf;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Estudios p {
+  color: #82aa82;
+  margin: 5px 0;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Estudios p i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 14px;
+  padding: 7px 10px;
+  color: white;
+}
+
+#Estudios .estudio {
+  margin: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Voluntariados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Voluntariados h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Voluntariados article {
+  margin: 5px 0;
+  color: #dfdfdf;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Experiencia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Experiencia h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Experiencia article {
+  margin: 5px 0;
+  color: #dfdfdf;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Experiencia article span {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+#Experiencia i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 32px;
+  padding: 7px 10px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

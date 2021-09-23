@@ -1,0 +1,264 @@
+body{
+    background-color: $color_datos;
+    margin:0 10vw;
+}
+
+h1{
+    color:$color_body;
+    margin:15px 0;
+    font-size: 2.5em;
+    font-weight: lighter;
+    font-family: 'Varela Round', sans-serif;
+    span{
+        font-weight: bold;
+    }
+}
+
+h2{
+    margin:0;
+    color: color_body;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: 'Varela Round', sans-serif;  
+}
+
+p{
+    font-weight: 100;
+    font-size: 0.8em;
+    color:$color_body;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+}
+
+.divBarra{
+    border-bottom-style:solid;
+    border-radius: 5%;
+    border-bottom-width: 3.5px;
+    border-bottom-color:rgba(255, 255, 255, 0.603);
+    width: 8vw;
+    margin-bottom: 10px;
+}
+
+.divBarra2{
+    border-bottom-style:solid;
+    border-radius: 5%;
+    border-bottom-width: 3.5px;
+    border-bottom-color:rgba(255, 255, 255, 0.603);
+    width: 12vw;
+    margin-bottom: 10px;
+}
+
+.divBarra3{
+    border-bottom-style:solid;
+    border-radius: 5%;
+    border-bottom-width: 3.5px;
+    border-bottom-color:rgba(255, 255, 255, 0.603);
+    width: 17vw;
+    margin-bottom: 10px;
+}
+
+#Informacion{
+    display: flex;
+    background-color: $color_body;
+    flex-direction: row;
+    text-align: center;
+    justify-content: right;
+    height: 50px;
+    padding-right: 20px;
+
+    a{
+        i{
+            text-align: center;
+            justify-content: right;
+            font-size:32px;
+            padding:7px 10px;
+            color:white;
+        }
+    }
+}
+
+#contenedorPresentacion{
+    display: flex;
+    flex-direction: row;
+    margin:8px 0;
+    border-style: solid;
+
+    #Datos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        padding: 1em 8em 0 8em;
+        height:17vw;
+    
+        button{
+            color:$color_body;
+            border-color: $color_body;
+            font-weight: bold;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 2%;
+            margin:30px 0;
+            font-family: 'Varela Round', sans-serif;
+            background-color: transparent;
+            padding:0.2em;
+            height: 2.5em;
+            width:38%;
+        }
+        
+        button:hover{
+            color:$color_body;
+            border-color: $color_body;
+            font-family: 'Varela Round', sans-serif;
+            background-color: $color_datos_hover;
+        }
+    }
+
+    #imagen{
+        display: flex;
+        position: relative;
+        text-align: right;
+        padding-top: 10px;
+        padding-left: 100px;
+        width: 17vw;
+        height: 17vw;
+    }
+}
+
+#Descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        color: $color_datos;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    article{
+        margin:5px 0;
+        color: rgb(223, 223, 223);
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+    
+}
+
+#Estudios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        color: $color_datos;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    h4{
+        margin:0;
+        color: rgb(223, 223, 223);
+        font-weight: bold;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    p{
+        color: $color_h4;
+        margin:5px 0;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+
+        i{
+            text-align: center;
+            justify-content: right;
+            font-size:14px;
+            padding:7px 10px;
+            color:white;
+        }
+    }
+
+
+
+    .estudio{
+        margin:12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#Voluntariados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        color: $color_datos;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    article{
+        margin:5px 0;
+        color: rgb(223, 223, 223);
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+    
+}
+
+#Experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        color: $color_datos;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    article{
+        margin:5px 0;
+        color: rgb(223, 223, 223);
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif; 
+        
+        span{
+            font-weight: bold;
+            font-size: 19px;
+        }
+    }
+
+    i{
+        text-align: center;
+        justify-content: right;
+        font-size:32px;
+        padding:7px 10px;
+        color:white;
+    }
+    
+}
