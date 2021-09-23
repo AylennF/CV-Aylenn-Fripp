@@ -1,6 +1,11 @@
 body{
     background-color: $color_datos;
     margin:0 10vw;
+
+    transition: all 1s ease-in-out;
+    visibility: visible;
+    animation: efecto_cabecera 4s;
+    transition-delay: 0.3s;
 }
 
 h1{
@@ -90,6 +95,9 @@ p{
        
         padding: 1em 8em 0 8em;
         height:17vw;
+        transition: all 1s ease-in-out;
+        visibility: visible;
+        animation: efecto_entrada 2s;
     
         button{
             color:$color_body;
@@ -100,18 +108,30 @@ p{
             border-radius: 2%;
             margin:30px 0;
             font-family: 'Varela Round', sans-serif;
+            transition: all 0.5s ease-in-out;
             background-color: transparent;
             padding:0.2em;
             height: 2.5em;
             width:38%;
+
+
         }
         
         button:hover{
             color:$color_body;
+            transition: all 0.5s ease-in-out;
             border-color: $color_body;
             font-family: 'Varela Round', sans-serif;
             background-color: $color_datos_hover;
         }
+
+        #nombre{
+            transition: all 1s ease-in-out;
+            visibility: visible;
+            animation: efecto_nombre 3s;
+            transition-delay: 2.1s;
+        }
+        
     }
 
     #imagen{
@@ -121,7 +141,16 @@ p{
         padding-top: 10px;
         padding-left: 100px;
         width: 17vw;
+        transition: all 1s ease-in-out;
         height: 17vw;
+    }
+    
+    #imagen:hover{
+        img{
+            transition: all 1s ease-in-out;
+            visibility: visible;
+            animation: efecto_giro 3s;
+        }
     }
 }
 
@@ -209,9 +238,9 @@ p{
         margin:0;
         font-weight: bold;
         font-size: 25px;
-        color: $color_datos;
         font-weight: 100;
         font-family: 'Varela Round', sans-serif;  
+        color: $color_datos;
     }
 
     h4{
@@ -283,7 +312,7 @@ p{
     flex-direction: row;
     justify-content: center;
     background-color: $color_body;
-    padding: 10px 48px 40px 48px;
+    padding: 40px 128px;
 
     .Voluntariados_Dato{
         display: flex;
@@ -323,6 +352,7 @@ p{
             font-family: 'Varela Round', sans-serif;
             font-weight: bold;
             font-size: 12px;
+            transition: all 0.5s ease-in-out;
 
             border-color: $color_body;
             border-width: 2px;
@@ -339,6 +369,7 @@ p{
         button:hover{
             color:$color_body;
             border-color: $color_body;
+            transition: all 0.5s ease-in-out;
             font-family: 'Varela Round', sans-serif;
             background-color: $color_datos_hover;
         }
@@ -454,6 +485,7 @@ p{
         font-weight: bold;
         font-size: 28px;
         color:$color_contacto;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.712);
         font-family: 'Varela Round', sans-serif;  
     }
 
