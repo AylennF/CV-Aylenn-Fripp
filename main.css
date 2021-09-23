@@ -25,7 +25,7 @@ h2 {
 
 p {
   font-weight: 100;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #090f09;
   font-family: 'Varela Round', sans-serif;
   margin: 0;
@@ -171,7 +171,7 @@ p {
 }
 
 #Descripcion article {
-  margin: 5px 0;
+  margin: 5px 12px;
   color: #dfdfdf;
   font-weight: 100;
   font-family: 'Varela Round', sans-serif;
@@ -241,7 +241,7 @@ p {
           justify-content: center;
 }
 
-#Voluntariados {
+#otrosConocimientos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,7 +256,7 @@ p {
   padding: 40px 128px;
 }
 
-#Voluntariados h3 {
+#otrosConocimientos h3 {
   margin: 0;
   font-weight: bold;
   font-size: 25px;
@@ -265,11 +265,172 @@ p {
   font-family: 'Varela Round', sans-serif;
 }
 
-#Voluntariados article {
+#otrosConocimientos h4 {
+  margin: 0;
+  color: #dfdfdf;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#otrosConocimientos p {
+  color: #82aa82;
+  margin: 5px 0;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#otrosConocimientos p i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 14px;
+  padding: 7px 10px;
+  color: white;
+}
+
+#otrosConocimientos .estudio {
+  margin: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Voluntariados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Voluntariados #Voluntariados_Dato_Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#Voluntariados #Voluntariados_Dato_Main h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Voluntariados #Voluntariados_Dato_Main article {
   margin: 5px 0;
   color: #dfdfdf;
   font-weight: 100;
   font-family: 'Varela Round', sans-serif;
+}
+
+#voluntariadosContenidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 10px 48px 40px 48px;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  background-color: #b3e2b3;
+  width: 40vw;
+  height: 15vw;
+  margin: 20px 10px;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato h4 {
+  margin: 0;
+  font-weight: bolder;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato p {
+  margin: 5px 0;
+  padding-left: 20px;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato p i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #090f09;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  border-color: #090f09;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2%;
+  background-color: transparent;
+  margin: 30px 0;
+  padding: 0.5em;
+  height: 3em;
+  width: 80%;
+}
+
+#voluntariadosContenidos .Voluntariados_Dato button:hover {
+  color: #090f09;
+  border-color: #090f09;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #558655;
 }
 
 #Experiencia {
@@ -316,5 +477,93 @@ p {
   font-size: 32px;
   padding: 7px 10px;
   color: white;
+}
+
+#Habilidades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #090f09;
+  padding: 40px 128px;
+}
+
+#Habilidades h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: #b3e2b3;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Habilidades p {
+  margin: 5px 12px;
+  color: #dfdfdf;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Habilidades p i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 7px 10px;
+  color: white;
+}
+
+#Datos_Contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 8px 0;
+  border-style: solid;
+  height: 15vh;
+}
+
+#Datos_Contacto #datoContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  padding: 15px;
+}
+
+#Datos_Contacto h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Datos_Contacto p {
+  margin: 5px 12px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Datos_Contacto p i {
+  text-align: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding: 7px 10px;
 }
 /*# sourceMappingURL=main.css.map */

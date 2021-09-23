@@ -24,7 +24,7 @@ h2{
 
 p{
     font-weight: 100;
-    font-size: 0.8em;
+    font-size: 1em;
     color:$color_body;
     font-family: 'Varela Round', sans-serif;
     margin:0;
@@ -142,7 +142,7 @@ p{
     }
 
     article{
-        margin:5px 0;
+        margin:5px 12px;
         color: rgb(223, 223, 223);
         font-weight: 100;
         font-family: 'Varela Round', sans-serif;  
@@ -190,8 +190,6 @@ p{
         }
     }
 
-
-
     .estudio{
         margin:12px;
         display: flex;
@@ -200,7 +198,7 @@ p{
     }
 }
 
-#Voluntariados{
+#otrosConocimientos{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,11 +214,134 @@ p{
         font-family: 'Varela Round', sans-serif;  
     }
 
-    article{
-        margin:5px 0;
+    h4{
+        margin:0;
         color: rgb(223, 223, 223);
+        font-weight: bold;
+        font-size: 18px;
         font-weight: 100;
         font-family: 'Varela Round', sans-serif;  
+    }
+
+    p{
+        color: $color_h4;
+        margin:5px 0;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+
+        i{
+            text-align: center;
+            justify-content: right;
+            font-size:14px;
+            padding:7px 10px;
+            color:white;
+        }
+    }
+
+    .estudio{
+        margin:12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+#Voluntariados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    #Voluntariados_Dato_Main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+        h3{
+            margin:0;
+            font-weight: bold;
+            font-size: 25px;
+            color: $color_datos;
+            font-weight: 100;
+            font-family: 'Varela Round', sans-serif;  
+        }
+
+        article{
+            margin:5px 0;
+            color: rgb(223, 223, 223);
+            font-weight: 100;
+            font-family: 'Varela Round', sans-serif;  
+        }  
+    }
+
+}
+
+#voluntariadosContenidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 10px 48px 40px 48px;
+
+    .Voluntariados_Dato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        background-color: $color_datos;
+        width: 40vw;
+        height: 15vw;
+        margin: 20px 10px;
+
+        h4{
+            margin:0;
+            font-weight: bolder;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: 'Varela Round', sans-serif;  
+        }
+
+        p{
+            margin:5px 0;
+            padding-left: 20px;
+            font-weight: 100;
+            font-family: 'Varela Round', sans-serif;  
+
+            i{
+                text-align: center;
+                justify-content: right;
+                font-size:14px;
+                padding:7px 10px;
+            }
+        }
+
+        button{
+            align-self: center;
+            color:$color_body;
+            font-family: 'Varela Round', sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+
+            border-color: $color_body;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 2%;
+            
+            background-color: transparent;
+            margin:30px 0;
+            padding:0.5em;
+            height: 3em;
+            width:80%;
+        }
+        
+        button:hover{
+            color:$color_body;
+            border-color: $color_body;
+            font-family: 'Varela Round', sans-serif;
+            background-color: $color_datos_hover;
+        }
     }
     
 }
@@ -261,4 +382,71 @@ p{
         color:white;
     }
     
+}
+
+#Habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color_body;
+    padding: 40px 128px;
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        color: $color_datos;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    p{
+        margin:5px 12px;
+        color: rgb(223, 223, 223);
+        font-family: 'Varela Round', sans-serif;  
+        
+    i{
+        text-align: center;
+        justify-content: right;
+        padding:7px 10px;
+        color:white;
+    }
+    }
+    
+}
+
+#Datos_Contacto{
+    display: flex;
+    flex-direction: row;
+    margin:8px 0;
+    border-style: solid;
+    height: 15vh;
+
+    #datoContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding:15px;
+    }
+
+    h3{
+        margin:0;
+        font-weight: bold;
+        font-size: 25px;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    p{
+        margin:5px 12px;
+        font-family: 'Varela Round', sans-serif;  
+        
+    i{
+        text-align: center;
+        justify-content: right;
+        padding:7px 10px;
+    }
+    }
+
 }
