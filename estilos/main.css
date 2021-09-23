@@ -311,6 +311,7 @@ p {
   color: #dfdfdf;
   font-weight: 100;
   font-family: 'Varela Round', sans-serif;
+  line-height: 26px;
 }
 
 #Estudios {
@@ -347,7 +348,7 @@ p {
 }
 
 #Estudios p {
-  color: #82aa82;
+  color: #9bc79b;
   margin: 5px 0;
   font-weight: 100;
   font-family: 'Varela Round', sans-serif;
@@ -396,7 +397,6 @@ p {
   margin: 0;
   font-weight: bold;
   font-size: 25px;
-  font-weight: 100;
   font-family: 'Varela Round', sans-serif;
   color: #b3e2b3;
 }
@@ -411,7 +411,7 @@ p {
 }
 
 #otrosConocimientos p {
-  color: #82aa82;
+  color: #9bc79b;
   margin: 5px 0;
   font-weight: 100;
   font-family: 'Varela Round', sans-serif;
@@ -475,7 +475,6 @@ p {
   font-weight: bold;
   font-size: 25px;
   color: #b3e2b3;
-  font-weight: 100;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -593,7 +592,6 @@ p {
   font-weight: bold;
   font-size: 25px;
   color: #b3e2b3;
-  font-weight: 100;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -639,7 +637,6 @@ p {
   font-weight: bold;
   font-size: 25px;
   color: #b3e2b3;
-  font-weight: 100;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -734,5 +731,27 @@ p {
       -ms-flex-pack: right;
           justify-content: right;
   padding: 7px 10px;
+}
+
+#imgDW {
+  width: 80%;
+  height: 80%;
+  margin: 8px 0;
+}
+
+#imgIngenieria {
+  width: 80%;
+  height: 80%;
+  margin: 8px 0;
+}
+
+#flechaDW {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#flechaIngenieria {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 /*# sourceMappingURL=main.css.map */
