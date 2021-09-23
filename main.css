@@ -526,9 +526,14 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 8px 0;
+  padding: 0 25px;
   border-style: solid;
-  height: 15vh;
+  height: 20vh;
+  background-color: #558655;
 }
 
 #Datos_Contacto #datoContacto {
@@ -546,11 +551,34 @@ p {
   padding: 15px;
 }
 
+#Datos_Contacto #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+  padding: 15px;
+}
+
 #Datos_Contacto h3 {
   margin: 0;
-  font-weight: bold;
-  font-size: 25px;
   font-weight: 100;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#Datos_Contacto h4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  color: #6de96d;
   font-family: 'Varela Round', sans-serif;
 }
 

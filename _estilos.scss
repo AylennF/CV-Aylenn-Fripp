@@ -418,9 +418,12 @@ p{
 #Datos_Contacto{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin:8px 0;
+    padding:0 25px;
     border-style: solid;
-    height: 15vh;
+    height: 20vh;
+    background-color: $color_datos_hover;
 
     #datoContacto{
         display: flex;
@@ -430,11 +433,27 @@ p{
         padding:15px;
     }
 
+    #contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        padding:15px;
+    }
+
     h3{
         margin:0;
-        font-weight: bold;
-        font-size: 25px;
         font-weight: 100;
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: 'Varela Round', sans-serif;  
+    }
+
+    h4{
+        margin:0;
+        font-weight: bold;
+        font-size: 28px;
+        color:$color_contacto;
         font-family: 'Varela Round', sans-serif;  
     }
 
